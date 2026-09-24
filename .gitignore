@@ -1,0 +1,33 @@
+# Gradle and Kotlin
+.gradle/
+.kotlin/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local configuration
+local.properties
+.env
+.env.*
+
+# Logs and JVM crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Locally downloaded Gradle distribution
+gradle-8.10/
+gradle-8.10-bin.zip
