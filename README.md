@@ -56,7 +56,11 @@ macOS/Linux:
 ./gradlew clean jar
 ```
 
-Результат создаётся в `build/libs/scanner3.jar`.
+Результат создаётся в `build/libs/scanner3-1.0.0.jar`. JAR включает runtime-зависимости текущей ОС и запускается через:
+
+```bash
+java -jar build/libs/scanner3-1.0.0.jar
+```
 
 ## Управление
 
